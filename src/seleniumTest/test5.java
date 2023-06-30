@@ -30,10 +30,10 @@ public class test5 {
 		WebElement searchButton = driver.findElement(By.xpath("//input[@id='nav-search-submit-button']"));
 		searchButton.click();
 		
-		driver.findElement(By.xpath("https://www.amazon.in/Apple-iPhone-14-128GB-Midnight/dp/B0BDHX8Z63/ref=sr_1_3?crid=1CY3W44272E6J&keywords=iphone&qid=1688096341&sprefix=%2Caps%2C220&sr=8-3"));
+//		driver.findElement(By.xpath("https://www.amazon.in/Apple-iPhone-14-128GB-Midnight/dp/B0BDHX8Z63/ref=sr_1_3?crid=1CY3W44272E6J&keywords=iphone&qid=1688096341&sprefix=%2Caps%2C220&sr=8-3"));
 		
-//		WebElement firstProduct = driver.findElement(By.xpath("//span[@class='a-size-medium a-color-base a-text-normal'][normalize-space()='Apple iPhone 14 (128 GB) - Midnight']"));
-//		firstProduct.click();
+		WebElement firstProduct = driver.findElement(By.xpath("//span[@class='a-size-medium a-color-base a-text-normal'][normalize-space()='Apple iPhone 14 (128 GB) - Midnight']"));
+		firstProduct.click();
 		
 	}
 	
